@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: MaterialsManagement
+  datasource:
+    url: jdbc:postgresql://${MYSQL_HOST:localhost}:5432/postgres
+    username: postgres
+    password: 123456
